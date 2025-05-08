@@ -1,0 +1,8 @@
+# don’t check in our dependencies or local installs
+node_modules/
+
+# don’t check in compiled code
+dist/
+
+# macOS Finder metadata files
+.DS_Store
