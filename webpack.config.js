@@ -8,7 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, "docs"),
         clean: true,
     },
-    mode: "development",
+    mode: "production",
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.html",
